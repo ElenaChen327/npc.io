@@ -7,6 +7,17 @@
     <title>Image 4</title>
 </head>
 <body>
-    <!-- <img src="images/image4.jpg" alt="Image 1" class="fullscreen-image"> -->
+    <img src="images/Firefly working out at a gym 63219.jpg" alt="Image 4" class="fullscreen-image">
+    <script>
+        function toggleFullScreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        }
+    </script>
 </body>
 </html>
